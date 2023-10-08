@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Della+Respira&family=Roboto+Condensed:wght@400;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
+
+.first_section {
+  background: url("./assets/banner-bg.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.roboto_font {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.nav_item {
+  cursor: pointer;
+}
+
+.sidebar_item {
+  cursor: pointer;
+  padding: 8px;
+  /* background-color: aqua; */
+  width: 250px;
+}
+
+/* About us */
+.our_vision_shape {
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.text_shadow {
+  text-shadow: -5px 7px 2px #ddbc41;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-weight: 900;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Who We are section */
+.who_we_are {
+  background: url("./assets/about_bg.jpg");
+  background-repeat: repeat-x;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.text_shadow_who_we_are {
+  text-shadow: 5px 8px 2px #000000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.text_shadow_success {
+  text-shadow: 2px 2px 1px #0896d8;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.footer_section {
+  background: url("./assets/footer-bg.png");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+@media (max-width: 639px) {
+  .custom-class {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+}
